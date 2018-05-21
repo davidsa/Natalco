@@ -1,6 +1,5 @@
 body, html
   height 100%
-  width 100%
   font-family 'Raleway', sans-serif
   color white
   background-color black
@@ -13,6 +12,10 @@ body, html
 
 .container
   display flex
-  justify-content space-around
+  justify-content center
   align-items center
-  width: 40%
+  flex-direction column
+  &__img
+    height 500px
+  &__text
+    font-size 24pt
